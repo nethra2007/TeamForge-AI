@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans tracking-tight;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-800 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-700;
+}
+
+/* Soft Glows & Card Aesthetics */
+.saas-card {
+  @apply bg-white dark:bg-[#111827] border border-gray-200 dark:border-gray-800/80 rounded-2xl shadow-sm hover:shadow-md transition-all duration-200;
+}
+
+.saas-input {
+  @apply w-full px-3.5 py-2.5 bg-gray-50 dark:bg-[#182234] border border-gray-200 dark:border-gray-700/70 rounded-xl text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:border-brand-500 text-sm transition-all;
+}
+
+.saas-btn-primary {
+  @apply inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-brand-600 hover:bg-brand-500 text-white font-medium rounded-xl text-sm shadow-sm hover:shadow transition-all duration-150 active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none;
+}
+
+.saas-btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 font-medium rounded-xl text-sm transition-all active:scale-[0.98];
+}
+
+.agent-badge {
+  @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold tracking-wide border;
+}
