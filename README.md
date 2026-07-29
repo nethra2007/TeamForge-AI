@@ -1,4 +1,3 @@
-
 1. Team Collaborator AI
 
 Analyzes student profiles, technical skills, preferred roles, and project requirements to form balanced and compatible teams. It recommends suitable teammates, assigns project roles, evaluates team compatibility, and stores generated teams for future access.
@@ -21,8 +20,4 @@ Evaluates a student's current technical skills against career objectives to iden
 
 6. PlacementPrep AI
 
-<<<<<<< HEAD
 Assesses resume content and career goals to improve placement readiness. It provides resume analysis, generates technical and behavioral interview questions, offers personalized feedback, and evaluates overall placement preparedness.
-=======
-Assesses resume content and career goals to improve placement readiness. It provides resume analysis, generates technical and behavioral interview questions, offers personalized feedback, and evaluates overall placement preparedness.
->>>>>>> 79438d4f682ca8244bfff0378dd3fcf5b31229dc
